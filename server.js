@@ -2,6 +2,10 @@
 
 // BASE SETUP
 // =============================================================================
+var mongoose = require('mongoose');
+mongoose.connect('mongodb://paracase@localhost:27017');
+
+var Case     = require('./app/models/case');
 
 // call the packages we need
 var express    = require('express');        // call express
