@@ -2,6 +2,7 @@
 
 // BASE SETUP
 // =============================================================================
+
 var mongoose = require('mongoose');
 mongoose.connect('mongodb://paracase@localhost:27017');
 
